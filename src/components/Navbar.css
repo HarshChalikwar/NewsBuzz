@@ -1,0 +1,43 @@
+/* Navbar.css */
+
+/* General styling for the navbar remains the same */
+
+/* Styling for the suggestions list */
+.autocomplete {
+    position: absolute;
+    top: 100%; /* Position it directly below the input field */
+    left: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc; /* Border similar to input field */
+    background: white; /* Background matching input field */
+    z-index: 1000;
+    max-height: 200px; /* Limit height for long lists */
+    overflow-y: auto;
+    border-radius: 4px; /* Matching the input field's border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    min-width: 100%; /* Ensure the list width is at least the width of the input field */
+  }
+  
+  /* Styling for each suggestion item */
+  .autocomplete li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eaeaea; /* Separate each item */
+    color: #212529; /* Bootstrap's text color */
+    background-color: white; /* Background matching input field */
+  }
+  
+  /* Last item in the list should not have a bottom border */
+  .autocomplete li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Hover effect for suggestion items */
+  .autocomplete li:hover {
+    background-color: #e9ecef; /* Bootstrap's hover background color for inputs */
+    color: #495057; /* Bootstrap's text color for active items */
+  }
+  

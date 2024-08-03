@@ -16,7 +16,7 @@ npm run
 ## Author
 
 **Harsh Chalikwar**
-## UserInterface
+## User Interface
 ![User Interface Screenshot](./Images/UserInterface.png)
 ## Show your support
 

@@ -17,7 +17,7 @@ npm run
 
 **Harsh Chalikwar**
 ## UserInterface
-`![User Interface Screenshot](./images/UserInterface.png)`
+![User Interface Screenshot](./images/UserInterface.png)
 ## Show your support
 
 Give a ⭐️ if this project helped you!
